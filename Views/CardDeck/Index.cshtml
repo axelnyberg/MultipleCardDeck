@@ -1,0 +1,17 @@
+﻿@{
+    ViewData["Title"] = "Card Deck";
+}
+
+<div>
+    <img src="/Content/Images/@ViewData["deckImageName"]" height="400" width="310" />
+    <img src="/Content/Images/@ViewData["cardImageName"]" height="350" width="260" />
+    <hr />
+    <h3>Cards left in deck: @ViewData["totalCards"]</h3> 
+    <input type="button" class="btn btn-default" value="Draw card" onclick="location.href='@Url.Action("DrawTopCard", "CardDeck")'" />
+    <input type="button" class="btn btn-default" value="Shuffle" onclick="location.href='@Url.Action("ShuffleCards", "CardDeck")'" />
+    <input type="button" class="btn btn-default" value="Sort" onclick="location.href='@Url.Action("SortCards", "CardDeck")'" />
+    <input type="button" class="btn btn-default" value="Add deck" onclick="location.href='@Url.Action("AddOneDeck", "CardDeck")'" />   
+    <input type="button" class="btn btn-default" value="Reset" onclick="location.href='@Url.Action("Index", "CardDeck")'" />   
+</div>
+
+
