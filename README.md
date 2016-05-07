@@ -7,7 +7,7 @@ Created in ASP.NET MVC
 * Can use more than one deck<br>
 * Sort decks<br>
 * Shuffle decks<br>
-* Draw top card from deck<br>
+* Draw top card from decks<br>
 * Reset Deck
 
 **Includes:**<br>
