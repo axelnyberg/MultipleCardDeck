@@ -1,6 +1,8 @@
 # MultipleCardDeck
 Created in ASP.NET MVC 
 
+**Language:** C#
+
 **Features:**<br>
 * Can use more than one deck<br>
 * Sort decks<br>
